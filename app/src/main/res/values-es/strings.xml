@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sensor atmosférico</string>
+    <string name="activity_title_settings">Ajustes</string>
+    <string name="action_clear_all">Borrar Todo</string>
+    <string name="action_logout">Desconexión</string>
+    <string name="action_mark_all_read">Marcar todo como leido</string>
+    <string name="activity_title_about_us">Sobre Nosotros</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="item">Item</string>
+    <string name="nav_about_us">Sobre nosotros</string>
+    <string name="nav_charts">Gráficos</string>
+    <string name="nav_heatmap">Heatmap</string>
+    <string name="nav_home">Pagina Principal</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="navigation_drawer_close">Cerrar barra de navegación</string>
+    <string name="navigation_drawer_open">Abrir barra de navegación</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="other">Otros</string>
+    <string name="title_activity_main">Actividad Principal</string>
+    <string name="title_activity_settings2">Ajustes</string>
+    <string name="title_activity_sign_in_">Iniciar Sesion</string>
+    <string name="Log_In">Iniciar sesion</string>
+    <string name="Password">contraseña</string>
+    <string name="User">Usuario</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="Language">Idioma</string>
+    <string name="Clear_User">Borrar usuario</string>
+    <string name="Clear_Data">Borrar datos</string>
+    <string name="ChangeLanguage" translatable="false">Ok</string>
+    <string name="Export_Data">Exportar Datos</string>
+</resources>

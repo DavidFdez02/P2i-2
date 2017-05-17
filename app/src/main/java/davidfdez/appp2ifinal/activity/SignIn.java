@@ -32,7 +32,7 @@ public class SignIn extends AppCompatActivity {
         ContentValues registro = new ContentValues();
         registro.put("id", cod);
         registro.put("password", descri);
-        registro.put("language", "eng");
+        registro.put("language", "es");
         if(!checkIfUserExists(cod)) {
             bd.insert("User", null, registro);
             bd.close();
@@ -71,13 +71,14 @@ public class SignIn extends AppCompatActivity {
         String user = et1.getText().toString();
         String pass = et2.getText().toString();
         Cursor fila = bd.rawQuery(
-                "select id,password from User where id = '" + user + "'", null);
+                "select id,password, language from User where id = '" + user + "'", null);
         if (fila.moveToFirst()) {
             if (fila.getString(0).equals(user) && fila.getString(1).equals(pass)) {
                 Toast.makeText(this, "Password matchs the user",
                         Toast.LENGTH_SHORT).show();
                 Intent i=new Intent(this,MainActivity.class);
                 i.putExtra("user", et1.getText().toString());
+                i.putExtra("langage",fila.getString(2));
                 startActivity(i);
 
             } else

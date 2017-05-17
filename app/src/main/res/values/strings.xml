@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Capteur Ambience</string>
+    <string name="app_name">Atmosphere Sensor</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -26,10 +26,19 @@
     <string name="action_clear_all">Clear All</string>
     <string name="action_logout">Logout</string>
     <string name="action_mark_all_read">Mark All as Read</string>
-    //quitar
+
     <string name="title_activity_sign_in_">SignIn_Activity</string>
     <string name="item">Item</string>
     <string name="other">Other</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_settings2">settings2</string>
+    <string name="Log_In">Log In</string>
+    <string name="sign_in">Sign In</string>
+    <string name="User">User</string>
+    <string name="Password">Password</string>
+    <string name="Language" >Language</string>
+    <string name="ChangeLanguage">Ok</string>
+    <string name="Clear_User">Delete User</string>
+    <string name="Clear_Data">Clear Data</string>
+    <string name="Export_Data">Export Data</string>
 </resources>

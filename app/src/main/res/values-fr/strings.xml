@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Capteur d\'Ambiance</string>
+    <string name="action_clear_all">Effacer Tout</string>
+    <string name="action_logout">Déconexion</string>
+    <string name="action_mark_all_read">Marquer tout comme lu</string>
+    <string name="activity_title_about_us">À propos de nous</string>
+    <string name="activity_title_settings">"Paramètres "</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="item">Item</string>
+    <string name="nav_about_us">À propos de nous</string>
+    <string name="nav_charts">Graphiques</string>
+    <string name="nav_heatmap">Heatmap</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="navigation_drawer_close">Fermer barre de navigation</string>
+    <string name="navigation_drawer_open">Ouvrir barre de navigation</string>
+    <string name="openDrawer">ouvrir barre</string>
+    <string name="other">autres</string>
+    <string name="title_activity_main">Activitée`principale</string>
+    <string name="title_activity_settings2">Paramètres</string>
+    <string name="title_activity_sign_in_">initialiser sesion</string>
+    <string name="Log_In">connexion</string>
+    <string name="Password">mot de passe</string>
+    <string name="User">Usuaire</string>
+    <string name="sign_in">Créer un compte</string>
+    <string name="Language">Langue</string>
+    <string name="Clear_User">Effacer usuaire</string>
+    <string name="Clear_Data">Effacer Donnes</string>
+    <string name="Export_Data">Exporter donnees</string>
+    <string name="ChangeLanguage" translatable="false">Ok</string>
+</resources>

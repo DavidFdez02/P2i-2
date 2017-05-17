@@ -1,6 +1,8 @@
 package davidfdez.appp2ifinal.activity;
 
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
@@ -13,12 +15,15 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 import  davidfdez.appp2ifinal.R;
 import davidfdez.appp2ifinal.fragments.Fragment_Charts;
@@ -51,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
     // flag to load home fragment when user presses back key
     private boolean shouldLoadHomeFragOnBackPress = true;
     private Handler mHandler;
-
+    private String user;
+    private String lang;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Bundle bundle = getIntent().getExtras();
+        user = bundle.getString("user");
+        lang = bundle.getString("language"); ////////TERMINAR CAMBIAR LENGUA DE LA MAIN APP
 
         mHandler = new Handler();
 
@@ -218,12 +228,16 @@ public class MainActivity extends AppCompatActivity {
                         CURRENT_TAG = TAG_HEATMAP;
                         break;
                     case R.id.nav_settings:
-                        startActivity(new Intent(MainActivity.this, Settings.class));
+                        Intent iS = new Intent(MainActivity.this, Settings.class);
+                        iS.putExtra("user", user);
                         drawer.closeDrawers();
+                        startActivity(iS);
                         return true;
                     case R.id.nav_about_us:
-                        startActivity(new Intent(MainActivity.this, AboutUs.class));
+                        Intent iAU = new Intent(MainActivity.this, AboutUs.class);
+                        iAU.putExtra("user", user);
                         drawer.closeDrawers();
+                        startActivity(iAU);
                         return true;
                     default:
                         navItemIndex = 0;
@@ -341,5 +355,16 @@ public class MainActivity extends AppCompatActivity {
             fab.show();
         else
             fab.hide();
+    }
+    public void setLocale(String lang) {
+        Locale myLocale = new Locale(lang);
+        Resources res = getResources();
+        DisplayMetrics dm = res.getDisplayMetrics();
+        Configuration conf = res.getConfiguration();
+        conf.locale = myLocale;
+        res.updateConfiguration(conf, dm);
+        Intent refresh = new Intent(this, MainActivity.class);
+        startActivity(refresh);
+        finish();
     }
 }
