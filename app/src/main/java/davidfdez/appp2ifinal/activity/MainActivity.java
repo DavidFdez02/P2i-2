@@ -26,9 +26,7 @@ import android.widget.Toast;
 import java.util.Locale;
 
 import  davidfdez.appp2ifinal.R;
-import davidfdez.appp2ifinal.fragments.Fragment_Charts;
-import davidfdez.appp2ifinal.fragments.Fragment_Heatmap;
-import davidfdez.appp2ifinal.fragments.Fragment_Home;
+import davidfdez.appp2ifinal.fragments.Fragment_Commencer;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -89,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Exporting Data", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -122,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Loading profile image
         imgProfile.setImageResource(R.drawable.logo);
-     }
+    }
 
     /***
      * Returns respected fragment that user
@@ -178,22 +176,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Fragment getHomeFragment() {
-        switch (navItemIndex) {
-            case 0:
-                // home
-                Fragment_Home homeFragment = new Fragment_Home();
-                return homeFragment;
-            case 1:
-                // photos
-                Fragment_Charts chartsFragment = new Fragment_Charts();
-                return chartsFragment;
-            case 2:
-                // movies fragment
-                Fragment_Heatmap heatmapFragment = new Fragment_Heatmap();
-                return heatmapFragment;
-            default:
-                return new Fragment_Home();
-        }
+        return new Fragment_Commencer();
     }
 
     private void setToolbarTitle() {
@@ -216,16 +199,19 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     //Replacing the main content with ContentFragment Which is our Inbox View;
                     case R.id.home:
-                        navItemIndex = 0;
-                        CURRENT_TAG = TAG_HOME;
+                        Intent iAH = new Intent(MainActivity.this, Home.class);
+                        drawer.closeDrawers();
+                        startActivity(iAH);
                         break;
                     case R.id.nav_charts:
-                        navItemIndex = 1;
-                        CURRENT_TAG = TAG_CHARTS;
+                        Intent iAC = new Intent(MainActivity.this, Charts.class);
+                        drawer.closeDrawers();
+                        startActivity(iAC);
                         break;
                     case R.id.nav_heatmap:
-                        navItemIndex = 2;
-                        CURRENT_TAG = TAG_HEATMAP;
+                        Intent iAHE = new Intent(MainActivity.this, Heatmap.class);
+                        drawer.closeDrawers();
+                        startActivity(iAHE);
                         break;
                     case R.id.nav_settings:
                         Intent iS = new Intent(MainActivity.this, Settings.class);
@@ -366,5 +352,10 @@ public class MainActivity extends AppCompatActivity {
         Intent refresh = new Intent(this, MainActivity.class);
         startActivity(refresh);
         finish();
+    }
+
+    public void LiveCharts() {
+        Intent intent = new Intent(this, liveCharts.class);
+        startActivity(intent);
     }
 }

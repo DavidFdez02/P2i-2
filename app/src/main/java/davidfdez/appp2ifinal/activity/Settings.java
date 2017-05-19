@@ -65,10 +65,16 @@ public class Settings extends AppCompatActivity {
             setLocale("fr");
         }
     }
-    public void deleteUser(View view){
+    public void deleteUser(View view){//A faire
 
     }
-    public void setTout(String lang){}
+
+
+    public void setTout(String lang){//A faire
+
+    }
+
+
     public void setLocale(String lang) {
         Locale myLocale = new Locale(lang);
         Resources res = getResources();

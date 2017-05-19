@@ -36,9 +36,10 @@
     <string name="sign_in">Sign In</string>
     <string name="User">User</string>
     <string name="Password">Password</string>
-    <string name="Language" >Language</string>
+    <string name="Language">Language</string>
     <string name="ChangeLanguage">Ok</string>
     <string name="Clear_User">Delete User</string>
     <string name="Clear_Data">Clear Data</string>
     <string name="Export_Data">Export Data</string>
+    <string name="descrip">Nous avons comme objectif mesurer l\'atmosphère ambiante afin d’améliorer la performance vitale pour travailler, faire du sport etc, grâce à un analyse des donnés. Pour le projet, il s’agit d’une boite contenant plusieurs capteurs, un GPS et un module Bluetooth HC-05, tous connectés à un Arduino Uno. Le module Bluetooth sert à pouvoir communiquer avec un portable Android, sur lequel une application que nous allons aussi développer sera installée. Cette application donne la possibilité de se connecter pour avoir différents profils pour chaque utilisateur.</string>
 </resources>

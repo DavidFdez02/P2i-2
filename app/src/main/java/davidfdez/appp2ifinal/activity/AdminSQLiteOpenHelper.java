@@ -17,7 +17,7 @@ public class AdminSQLiteOpenHelper  extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("create table User (id text Primary Key, password text,language text)");
-       // db.execSQL("create table Mesure (idMesure text Primary Key, FOREIGN KEY(idUser) REFERENCES User(id), CO2messure INTEGER, Luminosite INTEGER, latitude Double, longitude double, Temperature INTEGER ");
+        db.execSQL("create table Mesure (idMesure text Primary Key, FOREIGN KEY(idUser) REFERENCES User(id), CO2messure INTEGER, Luminosite INTEGER, latitude Double, longitude double, Temperature INTEGER, DateTime DATETIME");
     }
 
     @Override
