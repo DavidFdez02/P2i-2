@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="davidfdez.appp2ifinal.activity.SignIn"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="215dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="151dp"
+        android:ems="10"
+        android:hint="@string/User"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="215dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="@+id/etUser"
+        app:layout_constraintRight_toRightOf="@+id/etUser"
+        app:layout_constraintTop_toBottomOf="@+id/etUser"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/LogIn"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="21dp"
+        android:onClick="logIn"
+        android:text="@string/Log_In"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/SignIn"
+        app:layout_constraintTop_toBottomOf="@+id/etPass"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/SignIn"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="112dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:onClick="signIn"
+        android:text="@string/sign_in"
+        app:layout_constraintBaseline_toBaselineOf="@+id/LogIn"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBaseline_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_editor_absoluteY="271dp" />
+
+</android.support.constraint.ConstraintLayout>
