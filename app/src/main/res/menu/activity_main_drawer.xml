@@ -7,6 +7,10 @@
             android:icon="@drawable/home_icon"
             android:title="@string/nav_home" />
         <item
+            android:id="@+id/nav_livecharts"
+            android:icon="@drawable/livecharts_icon"
+            android:title="@string/nav_livecharts" />
+        <item
             android:id="@+id/nav_charts"
             android:icon="@drawable/charts_icon"
             android:title="@string/nav_charts" />

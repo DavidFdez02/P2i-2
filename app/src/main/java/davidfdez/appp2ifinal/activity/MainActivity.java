@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (savedInstanceState == null) {
             navItemIndex = 0;
-            CURRENT_TAG = TAG_HOME;
+            CURRENT_TAG = "Begining";
             loadHomeFragment();
         }
     }
@@ -198,10 +198,10 @@ public class MainActivity extends AppCompatActivity {
                 //Check to see which item was being clicked and perform appropriate action
                 switch (menuItem.getItemId()) {
                     //Replacing the main content with ContentFragment Which is our Inbox View;
-                    case R.id.home:
-                        Intent iAH = new Intent(MainActivity.this, Home.class);
+                    case R.id.nav_livecharts:
+                        Intent iALC = new Intent(MainActivity.this, liveCharts.class);
                         drawer.closeDrawers();
-                        startActivity(iAH);
+                        startActivity(iALC);
                         break;
                     case R.id.nav_charts:
                         Intent iAC = new Intent(MainActivity.this, Charts.class);
@@ -280,7 +280,7 @@ public class MainActivity extends AppCompatActivity {
             // rather than home
             if (navItemIndex != 0) {
                 navItemIndex = 0;
-                CURRENT_TAG = TAG_HOME;
+                CURRENT_TAG = "Begining";
                 loadHomeFragment();
                 return;
             }

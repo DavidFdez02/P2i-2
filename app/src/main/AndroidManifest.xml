@@ -30,9 +30,7 @@
         <activity
             android:name=".activity.Settings"
             android:label="@string/activity_title_settings" />
-        <activity
-            android:name=".activity.liveCharts"
-            android:label="@string/activity_title_settings" />
+        <activity android:name=".activity.liveCharts" />
         <activity android:name=".activity.Home" />
         <activity android:name=".activity.Charts" />
         <activity android:name=".activity.Heatmap"></activity>
