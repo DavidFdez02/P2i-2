@@ -107,7 +107,7 @@ public class liveCharts extends AppCompatActivity {
             fila = bd.rawQuery("select Temperature from Mesure where idUser = '" + user + "' orderBy DATETIME DESC Limit 1 ", null);
         }
         else if(TypeCapteur == 3) {
-            fila = bd.rawQuery("select Luminosite from Mesure where idUser = '" + user + "' orderBy DATETIME DESC Limit 1 ", null);
+            fila = bd.rawQuery("select Luminosite from Mesure where idUser = '" + user + "' ORDER BY DATETIME DESC Limit 1 ", null);
         }
         else if(TypeCapteur == 4) {
             fila = bd.rawQuery("select Humidite from Mesure where idUser = '" + user + "' orderBy DATETIME DESC Limit 1 ", null);
@@ -116,7 +116,7 @@ public class liveCharts extends AppCompatActivity {
         if (fila.moveToFirst()) {
             return Integer.parseInt(fila.getString(0));
         }
-        return 0;
+        return -100;
     }
 
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 24 14:36:36 CEST 2017
+#Wed May 24 16:43:20 CEST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_charts.xml
@@ -109,7 +109,7 @@
 10.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 66.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png
 218.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_bottom_sheet_slide_in.xml
-41.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\assets\\debug\\liveViewChart.html
+41.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_clear_material.xml
 255.set=ANDROID_RESOURCE
 196.set=ANDROID_RESOURCE
 116.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_about_us.xml
@@ -156,7 +156,7 @@
 138.set=ANDROID_RESOURCE
 80.set=ANDROID_RESOURCE
 28.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png
-41.set=ASSET
+41.set=ANDROID_RESOURCE
 55.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\transforms\\mergeJavaRes\\debug\\jars\\2\\1f\\main.jar\\jsr305_annotations\\Jsr305_annotations.gwt.xml
 109.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 238.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -183,7 +183,7 @@
 11.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 67.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_content_include.xml
 219.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
-42.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_clear_material.xml
+42.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\assets\\debug\\liveChart.html
 265.set=ANDROID_RESOURCE
 117.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_voice_search_api_material.xml
 94.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\livecharts_icon.png
@@ -460,7 +460,7 @@
 217.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 86.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\design_fab_in.xml
 40.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
-42.set=ANDROID_RESOURCE
+42.set=ASSET
 269.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 61.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png
 115.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -534,7 +534,7 @@ count=281
 218.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 87.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_vector_test.xml
 10.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_text_light_normal.xml
-41.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\assets\\debug
+41.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 52.set=ANDROID_RESOURCE
 116.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 93.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -609,7 +609,7 @@ count=281
 219.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 88.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png
 11.file=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\common_google_signin_btn_icon_disabled.xml
-42.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
+42.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\assets\\debug
 62.set=ANDROID_RESOURCE
 117.base=C\:\\Users\\David\\Downloads\\NavigationDrawer\\AppP2iFinal\\app\\build\\intermediates\\res\\resources-debug.ap_
 4.set=ANDROID_RESOURCE

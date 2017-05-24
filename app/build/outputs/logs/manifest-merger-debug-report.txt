@@ -97,7 +97,7 @@ ADDED from C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\src\main\An
 	android:name
 		ADDED from C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\src\main\AndroidManifest.xml:35:19-50
 activity#davidfdez.appp2ifinal.activity.Heatmap
-ADDED from C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\src\main\AndroidManifest.xml:36:9-63
+ADDED from C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\src\main\AndroidManifest.xml:36:9-53
 	android:name
 		ADDED from C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\src\main\AndroidManifest.xml:36:19-51
 uses-sdk

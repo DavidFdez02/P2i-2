@@ -201,16 +201,19 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_livecharts:
                         Intent iALC = new Intent(MainActivity.this, liveCharts.class);
                         drawer.closeDrawers();
+                        iALC.putExtra("user", user);
                         startActivity(iALC);
                         break;
                     case R.id.nav_charts:
                         Intent iAC = new Intent(MainActivity.this, Charts.class);
                         drawer.closeDrawers();
+                        iAC.putExtra("user", user);
                         startActivity(iAC);
                         break;
                     case R.id.nav_heatmap:
                         Intent iAHE = new Intent(MainActivity.this, Heatmap.class);
                         drawer.closeDrawers();
+                        iAHE.putExtra("user", user);
                         startActivity(iAHE);
                         break;
                     case R.id.nav_settings:

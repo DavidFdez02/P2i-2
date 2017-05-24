@@ -33,7 +33,7 @@
         <activity android:name=".activity.liveCharts" />
         <activity android:name=".activity.Home" />
         <activity android:name=".activity.Charts" />
-        <activity android:name=".activity.Heatmap"></activity>
+        <activity android:name=".activity.Heatmap"/>
     </application>
 
 </manifest>

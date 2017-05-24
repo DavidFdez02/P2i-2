@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1495629392542"
+    timestamp="1495637527945"
     token="-3691836333145955833"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -22,10 +22,6 @@
     <task
         name="verifier"
         duration="0" />
-
-    <artifact
-        location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -70,15 +66,29 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495629139491"
+        timestamp="1495634662009"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495629255221"
+        timestamp="1495636998926"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1495637373048"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -86,11 +96,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495629392542"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\David\Downloads\NavigationDrawer\AppP2iFinal\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
+        timestamp="1495637527945"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
